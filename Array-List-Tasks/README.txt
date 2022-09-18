@@ -1,6 +1,6 @@
 ﻿ARRAY, 
 
-Array is a data strucrure that stores items in sequenctial memory locations. Because of this 
+Array is a data structure that stores items in sequenctial memory locations. Because of this 
 Array items inherit an index numbers corresponding to the position where they are entired. i,e first entry in
 the collection will have an index of 0, Second will have an idex of 1 etc. Because of this it is time cheap to quickly
 jump to a memory location when accessing items with Arrays by index. 
