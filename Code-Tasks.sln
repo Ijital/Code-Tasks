@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CODE-TEST", "CODE-TEST\CODE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two-Dim-Array", "TWO-DIMENSION-ARRAY\Two-Dim-Array.csproj", "{642DA008-2D9F-4FD5-8D1F-131DA9B6E198}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String-Manipulation", "String-Manipulation\String-Manipulation.csproj", "{8D879471-B46D-4F57-9543-7DF9A02D4D58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{642DA008-2D9F-4FD5-8D1F-131DA9B6E198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{642DA008-2D9F-4FD5-8D1F-131DA9B6E198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{642DA008-2D9F-4FD5-8D1F-131DA9B6E198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D879471-B46D-4F57-9543-7DF9A02D4D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D879471-B46D-4F57-9543-7DF9A02D4D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D879471-B46D-4F57-9543-7DF9A02D4D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D879471-B46D-4F57-9543-7DF9A02D4D58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
