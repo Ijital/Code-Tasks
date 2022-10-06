@@ -43,6 +43,8 @@ namespace Array_List_Tasks
         static void Main(string[] args)
         {
 
+            TestMethod(1);
+
             // Most Linq methods return an IEnumerable and if your algorthm wants to maintain the 
             // thier original type then you may want to not use Linq methods because converting
             // from IEnumerable back to the original type e.g ToList() has  Big O of O(n)
@@ -257,6 +259,7 @@ namespace Array_List_Tasks
         private static string ReverseStringManaually(string myString)
         {
             var temWord = string.Join("", myString).ToCharArray();
+
             int numOfExcahnges = temWord.Length / 2;
 
             for (int i = 0; i < numOfExcahnges; i++)
@@ -307,6 +310,18 @@ namespace Array_List_Tasks
                 }
             }
             return recuringVal;
+        }
+
+
+        static void TestMethod(int num1)
+        {  
+            if(num1 < 2)
+            {
+                   Console.WriteLine(nums1);
+                return;       
+            }
+
+            Console.WriteLine(nums1);
         }
 
     }
